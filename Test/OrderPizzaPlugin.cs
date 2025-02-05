@@ -52,6 +52,13 @@ namespace Test
         {
             return _Cart;
         }
+
+        [KernelFunction("checkout")]
+        [Description("Check out the user's cart and return the total price.")]
+        public int Checkout()
+        {
+            return _Cart.pizzas.Sum(x => x.Prcie);
+        }
     }
 
     public class Cart
