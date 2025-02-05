@@ -76,9 +76,11 @@ namespace Test
 
         public Menu()
         {
-            pizzas.Add(new Pizza { Id = 1, Name = "瑪格麗特", Description = "Pepperoni, cheese, and tomato sauce", Prcie = 10 });
-            pizzas.Add(new Pizza { Id = 2, Name = "起司", Description = "Cheese and tomato sauce", Prcie = 8 });
-            pizzas.Add(new Pizza { Id = 3, Name = "夏威夷", Description = "Mushrooms, peppers, onions, and tomato sauce", Prcie = 12 });
+            pizzas.Add(new Pizza { Id = 1, Name = "瑪格麗特", Description = "Pepperoni, cheese, and tomato sauce", Prcie = 200 });
+            pizzas.Add(new Pizza { Id = 2, Name = "起司", Description = "Cheese and tomato sauce", Prcie = 220 });
+            pizzas.Add(new Pizza { Id = 3, Name = "夏威夷", Description = "Mushrooms, peppers, onions, and tomato sauce", Prcie = 250 });
+            pizzas.Add(new Pizza { Id = 4, Name = "墨西哥", Description = "Pepperoni, jalapenos, and tomato sauce", Prcie = 250 });
+            pizzas.Add(new Pizza { Id = 5, Name = "綜合", Description = "Pepperoni, sausage, mushrooms, and tomato sauce", Prcie = 320 });
         }
     }
 }
